@@ -128,3 +128,50 @@ li input{
 .toggle_text{
     text-align: center;
 }
+
+/* Section top-products_container*/
+
+.top-products_container, .new-products, .special-pro{
+    margin-top: 1%;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.section_title{
+    color: var(--main-text-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: var(--pink-color) solid 4px;
+    width: 10%;
+}
+.product{
+    background-color: var(--pic-background);
+    padding-top: 0.1%;
+    width: 20%;
+    overflow: hidden;
+    float: left;
+}
+.product-image{
+    margin:3% 3%;
+}
+.product-price{
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.quality{
+    float: left;
+}
+
+.view-product{
+    width: 30%;
+    background-color: var(--yellow-color);
+    color: var(--main-background);
+    float: right;
+    margin-right: 3%;
+    padding: 2% 2%;
+    text-align: center;
+    text-transform: capitalize;
+}
