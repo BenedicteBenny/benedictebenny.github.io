@@ -1,0 +1,130 @@
+:root{
+    --main-text-color: #000000;
+    --main-background: #ffffff;
+    --pic-background: #f3f3e0;
+    --yellow-color: 	#FE8F01;
+    --green-color: #00CE3E;
+    --pink-color: #FF00FE;
+    --body-background: #e8eef7;
+    --text_padding: 1.5px;
+    
+}
+body{
+    background-color:var(--main-background);
+    padding: 0;
+    margin:0;
+    font-size: 16px;
+}
+/*Header styles*/
+
+li img{
+    width: 50%;
+}
+.navbar{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    /*position: fixed;*/
+    width: 100%;
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 30%;
+}
+
+li{
+    float: left;
+    list-style-type: none;
+}
+
+
+li a{
+    text-decoration: none;
+    padding: 20px 30px;
+    display: block;
+    text-align: center;
+    color: var(--main-text-color);
+    text-transform: uppercase;
+
+}
+
+li a:hover{
+    background: var(--body-background)
+}
+
+li input{
+    height: 30px;
+    margin-top: 10px;
+    border: var(--body-background) solid 2px;
+    padding-left: 10px;
+    border-radius: 20px;
+    margin-left: 30%;
+}
+
+/*Section overview*/
+.overview{
+    width: 100%;
+    overflow: hidden;
+    background-color: #A3FBFD;  
+    margin-top: 0; 
+}
+
+.over-div{
+    float: left;
+}
+#Shopping_text{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 6%;
+}
+
+.Shopping_text1{
+    text-transform: capitalize;
+    padding: var(--text_padding);
+    font-size: 22px;
+}
+
+.Shopping_text2{
+    text-transform: uppercase ;
+    padding: var(--text_padding);
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+.Shopping_text3{
+    text-transform: capitalize;
+    padding: var(--text_padding);
+    font-size: 22px;
+}
+
+#shopping_image{
+    float: right;
+    margin-bottom: 0;
+    width: 30%;
+}
+
+/*Toogle section*/
+.toggle{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 2%;    
+}
+.toggle_box{
+    width: 33%;
+    float:left;    
+}
+.toggle_image img{
+    width: 30px;
+    margin-left: 45%;
+}
+.toggle_boldText{
+    text-align: center;
+    font-weight: bold;
+}
+.toggle_text{
+    text-align: center;
+}
