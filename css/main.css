@@ -155,6 +155,7 @@ li input{
 .product-image{
     margin:3% 3%;
 }
+
 .product-price{
     text-transform: uppercase;
     color: var(--main-text-color);
