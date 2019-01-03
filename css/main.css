@@ -59,6 +59,10 @@ li a:hover{
     background: #A3FBFD;
 }
 
+.current{
+    border-bottom: #A3FBFD 4px solid; 
+}
+
 li input{
     height: 30px;
     margin-top: 10px;
